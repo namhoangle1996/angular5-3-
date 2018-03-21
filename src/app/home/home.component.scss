@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col1 {
+  
+    padding: 0.4em 1em;
+}
+.col2 {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 0.4em 1em;
+}
+.col {padding: 0.4em 1em;}
+.color-dark {
+    background: #0b3d43;
+
+}
+.color-light {
+    background: #2196f3;
+} 
+
+input.txt {
+ border: 0;
+ padding: 1em;
+ width:80%;
+ margin-bottom: 20px;
+}
+input.btn {
+    border:0;
+    display: block;
+    padding: 1em 3em;
+    background: rgb(23, 128, 214);
+    color: antiquewhite;
+    margin-bottom: 1em;
+    cursor: pointer;
+
+}
+
+.life-container {
+    background: skyblue;
+    padding: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+ 
+}
